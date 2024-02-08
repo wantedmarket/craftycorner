@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mail-Contact</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicons/icon-1.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicons/icon-1.png"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicons/icon-1.png"
+    />
+    <link rel="manifest" href="assets/img/favicons/manifest.json" />
+    <meta
+      name="msapplication-TileImage"
+      content="assets/img/favicons/mstile-150x150.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Add script in head -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link href="assets/css/theme.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/0cb465a3f4.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      /* form {
+        padding: 3rem;
+      } */
+      input {
+        /* margin: 0.4rem 4.5rem; */
+        padding: 0.6rem;
+        margin-bottom: 1rem;
+      }
+      button {
+        padding: 0.4rem 4.5rem;
+        background-color: dodgerblue;
+        color: white;
+        text-shadow: 1px 1px 3px black;
+        border: none;
+        font-size: 22px;
+        border-radius: 5px;
+      }
+    </style>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+      <nav
+        class="navbar navbar-expand-lg navbar-light sticky-top"
+        data-navbar-on-scroll="data-navbar-on-scroll"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="assets/img/logo.lo.png" height="60" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+          <div
+            class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="aboutus.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="contact.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="pt-5 pt-md-9 mb-0" id="feature">
+        <div
+          class="bg-holder z-index--1 bottom-0 d-none d-lg-block"
+          style="
+            background-image: url(assets/img/category/shape.png);
+            opacity: 0.5;
+          "
+        ></div>
+        <!--/.bg-holder-->
+
+        <div class="container">
+          <h1 class="fs-9 fw-bold mb-0 text-center">Download Kids Activity Worksheets</h1>
+          <section class="payment-sub">
+            <p class="texts fw-bold"><i class="fa-solid fa-money-bill" style="padding-right:12px;"></i>Payment Options</p>
+            <p class="texts fw-bold"><i class="fa-solid fa-print" style="padding-right:12px"></i>Printable Materials</p>
+            <p class="texts fw-bold"><i class="fa-solid fa-magnifying-glass-dollar" style="padding-right:12px"></i>100% Assurance</p>
+
+          </section>
+        </div>
+        <!-- end of .container-->
+      </section>
+      <!-- <section> close ============================-->
+
+
+<!-- Section begin -->
+<div class="pay-section">
+  <div class="pay-sec1">
+        <img src="./assets/img/superhero/MicrosoftTeams-image.webp" class="pay-bundle">
+  </div>
+      <section style="text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; width:100%">
+
+        <p class="heads">Order Details</p>
+        <!-- <div class="cash-sub"> -->
+        <div class="cash-card">
+          <div class="d-flex justify-content-around gap-7">
+            <p class="texts">Product</p>
+            <p>Total</p>
+          </div>
+          <hr>
+          <div class="total-1">
+            <p class="total">9000+ kids Worksheets</p>
+            <p>* 1</p>
+            <p>₹ 999.00</p>
+          </div>
+          <div class="d-flex justify-content-evenly">
+            <p>Offer Price</p>
+            <p>80% (<strike>999</strike>)</p>
+            <p>₹ 199.00</p>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-around gap-9">
+            <p class="texts">Total</p>
+            <p>₹ 199.00</p>
+          </div>
+        <!-- </div> -->
+        </div>
+      </section>
+      </div>
+      <!-- ============================================-->
+
+
+
+      <!-- ============================================-->
+
+      <section class="pt-0" id="validatio1n">
+        <div class="container">
+          <div class="rows">
+            <div class="contact-detail">
+              <form id="contact_form" action="#">
+                <div class="forms">
+                  <p class="heads text-center">Customer Details</p>
+                  <div class="tabs pb-4">
+                    <label for="">NAME *</label>
+                    <input
+                      id="name"
+                      placeholder="Enter Your Name"
+                      type="text"
+                      name="name"
+                      required
+                    />
+                  </div>
+                  
+                  <div class="tabs">
+                    <label for="mail">E-MAIL *</label>
+                    <input
+                      id="mail"
+                      placeholder="Enter Your E-mail"
+                      type="email"
+                      name="email"
+                      required
+                    />
+                  </div>
+                  <br />
+                  <!-- Corrected type to "email" -->
+                  
+                  <div class="text-center">
+                  <button class="btn btn-warning w-50" onclick="send(event)">Pay Now</button>
+                  </div>
+
+                  <!-- Pass the event object to the send function -->
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- end of .container-->
+      </section>
+
+      
+
+      <div style=" margin-top:2rem; margin-bottom: 2rem; width:100%; display: flex; justify-content: center; align-items: center;">
+        <div class="money-1">
+          <img src="./assets/img/category/rs.webp" class="money-100" alt="money assurance">
+          <p class="texts text-center width-100" style="padding:1rem">Shop with confidence knowing your investment is secure. Our 100% Amount Assurance guarantees that you'll receive full value for your purchase. If you encounter any technical issues, our dedicated support team is ready to assist, ensuring a smooth and satisfying experience with Crafty Corner.</p>
+        </div>
+      </div>
+
+      <!-- ============================================-->
+
+      <!-- <section> begin ============================-->
+
+      <section class="p-6">
+        <div class="bg-holder z-index--1 bottom-0 object-fit-fill d-lg-block background-position-center" style="
+            background-image: url(assets/img/superhero/footer.webp);
+            opacity: 0.5;
+            background-position: top !important ;
+            background-size: cover !important;
+          "></div>
+        <div class="container">
+          <div class="row border-top border-top-secondary pt-7">
+            <div
+              class="col-lg-3 col-md-6 mb-3 mb-md-6 mb-lg-0 mb-sm-2 order-1 order-md-1 order-lg-1"
+            >
+              <img
+                class="mb-4"
+                src="assets/img/logo.lo.png"
+                width="200"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 mb-3 mb-lg-0 order-2 order-md-2 order-lg-2"
+            >
+              <p class="heads mb-lg-4">About Us</p>
+              <p class="texts">
+                craftycorner.shop is a Professional Digital products Platform.
+              </p>
+            </div>
+            <div
+              class="col-lg-3 col-md-6 mb-3 mb-lg-0 order-3 order-md-3 order-lg-3"
+            >
+              <p class="heads mb-lg-4">Quick Links</p>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-1">
+                  <a
+                    class="link-900 text-secondary text-decoration-none"
+                    href="contact.html"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="mb-1">
+                  <a
+                    class="link-900 text-secondary text-decoration-none"
+                    href="Privacypolicy.html"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li class="mb-1">
+                  <a
+                    class="link-900 text-secondary text-decoration-none"
+                    href="Refundpolicy.html"
+                    >Refund Policy</a
+                  >
+                </li>
+                <li class="mb-1">
+                  <a
+                    class="link-900 text-secondary text-decoration-none"
+                    href="Terms&Conditions.html"
+                    >Terms & Conditions</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-lg-3 col-md-6 col-6 mb-3 mb-lg-0 order-4 order-md-4 order-lg-4"
+            >
+              <p class="heads mb-lg-4">Contact Us</p>
+              <p>Mobile No : 9363634116</p>
+              <p>craftycornerdigi@gmail.com</p>
+              <!-- <div class="social">
+                  <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </div> -->
+            </div>
+          </div>
+        </div>
+        <section class="text-center py-0">
+        <div class="container">
+          <div class="container border-top py-3">
+            <div class="row justify-content-between">
+              <div class="col-12 col-md-auto mb-1 mb-md-0">
+                <p class="mb-0">&copy;copyright CraftyCorner 2020</p>
+              </div>
+              <div class="col-12 col-md-auto">
+                <p class="mb-0">
+                  Made with<span class="fas fa-heart mx-1 text-danger"> </span
+                  >by
+                  <a
+                    class="text-decoration-none ms-1"
+                    href=""
+                    target="_blank"
+                    >Crafty Corner</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of .container-->
+      </section>
+        <!-- end of .container-->
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+    </main>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <script>
+      const form = document.getElementById("contact_form");
+
+      function send(e) {
+        e.preventDefault();
+        const name = document.getElementById("name"),
+                mail = document.getElementById("mail");
+
+          if (name.value == ""){
+            alert("Please Enter a Name...!");
+          }else if(mail.value == ""){
+            alert("Please Enter a E-mail...!");
+          }else{
+
+
+            // "rzp_live_MqOO1HfZDQoptg",
+            // "vL0eMLHMgwaISLcxz9SqKJ6y",
+
+        var options = {
+          key: "rzp_live_MqOO1HfZDQoptg",
+          key_secret: "vL0eMLHMgwaISLcxz9SqKJ6y",
+          amount: 199 * 100,
+          currency: "INR",
+          name: "Crafty Corner",
+          description: "Digital Learning",
+          handler: function (response) {
+            // alert(response.razorpay_payment_id);
+            console.log(response);
+            if (response.razorpay_payment_id) {
+              const 
+                lik =
+                  "https://drive.google.com/drive/folders/1MZoAGo4Ihhtk_zGzu5H1BDWAsFwlD9-U?usp=drive_link",
+                lik1 =
+                  "https://drive.google.com/drive/folders/12vC6z-pD8RqhrTPYlyL5mA3jQ8FXxK5v?usp=drive_link",
+                msg = `Hai ${name.value}<br><br>Download Your Product<br>Product 1 -${lik}<br>Product 2 -${lik1}<br><br>Happy Learning..!`;
+
+              emailjs
+                .sendForm(
+                  "service_4p1ml7j",
+                  "template_a6dzk3p",
+                  "#contact_form",
+                  "lFj_s1_NBRTAbKB0M"
+                )
+                .then(
+                  function (response) {
+                    console.log("SUCCESS!", response.status, response.text);
+                    alert("Email sent successfully Check Your Mail");
+                    // alert("Payment Successful" + response.razorpay_payment_id);
+                    window.location.href="./index.html";
+                  },
+                  function (error) {
+                    console.log("FAILED...", error);
+                  }
+                );
+            }
+          },
+          prefill: {
+            name: "Crafty Corner",
+            email: "craftycornerdigi@gmail.com",
+            contact: "9363634116",
+          },
+          notes: {
+            address: "Razorpay Corporate Office",
+          },
+          theme: {
+            color: "#3399cc",
+          },
+        };
+        window.Razorpay(options).open();
+      }
+    }
+
+      form.addEventListener("submit", send);
+
+      var razorpayScript = document.createElement("script");
+      razorpayScript.src = "https://checkout.razorpay.com/v1/checkout.js";
+      razorpayScript.onload = function () {
+        console.log("Razorpay script loaded.");
+      };
+      document.head.appendChild(razorpayScript);
+    </script>
+
+
+<!-- validation -->
+
+<!-- <div
+      class="modal fade"
+      id="popupVideo"
+      tabindex="-1"
+      aria-labelledby="popupVideo"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <iframe
+            class="rounded"
+            style="width: 100%; height: 500px"
+            src="https://www.youtube.com/embed/_lhdhL4UDIo"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div> -->
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+
+  </body>
+</html>
